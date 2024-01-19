@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="home">
+      <h2>Todo List</h2>
+
+      <!-- Starting emoji that will disappear when adding a new todo -->
+      <div id="emoji" style="font-size: 40px; margin-bottom: 10px">😄</div>
+
+      <!-- Input for adding new tasks -->
+      <input
+        type="text"
+        id="taskInput"
+        placeholder="Add new task..."
+        onkeydown="addTask(event)"
+      />
+
+      <!-- List to display tasks -->
+      <ul id="taskList"></ul>
+
+      <!-- Footer with developer information -->
+      <footer>Developer - Jay2x-Dev.</footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

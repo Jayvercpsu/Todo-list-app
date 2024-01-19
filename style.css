@@ -1,0 +1,92 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #3498db; /* Cool background color */
+  color: #333; /* Text color */
+}
+
+h2 {
+  color: white; /* Header text color */
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  color: #333; /* Input text color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #333; /* Task text color */
+}
+
+li button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+  animation: colorCycle 0.8s infinite; /* Color cycling animation */
+}
+
+/* Emoji animation */
+@keyframes emojiAnimation {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.4);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.4);
+  }
+}
+
+@keyframes colorCycle {
+  0%,
+  100% {
+    color: white;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: yellow;
+  }
+}
+
+.home {
+    margin-top: 80px;
+}
+ 
